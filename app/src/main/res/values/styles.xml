@@ -1,0 +1,33 @@
+<resources>
+    <!-- Стиль для CheckBox -->
+    <style name="CustomCheckBoxStyle">
+        <item name="android:textColor">#FF6200EE</item>
+        <item name="android:background">#EDEDED</item>
+        <item name="android:buttonTint">#6200EE</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+    <style name="CustomToggleButtonStyle">
+    <item name="android:background">@drawable/custom_toggle_button</item>
+    <item name="android:textColor">#FFFFFF</item> <!-- Колір тексту -->
+    <item name="android:padding">8dp</item> <!-- Відступи -->
+    <item name="android:textSize">16sp</item> <!-- Розмір тексту -->
+</style>
+    <style name="ButtonStyle">
+        <item name="android:background">@drawable/gradient</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CustomFab" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/FabShapeStyle</item>
+    </style>
+    <style name="FabShapeStyle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">25%</item>
+        <item name="cornerFamilyBottomLeft">cut</item>
+<!--        also can % and dp in all this corner-->
+        <item name="cornerFamilyBottomRight">cut</item>
+        <item name="cornerFamilyTopLeft">cut</item>
+        <item name="cornerFamilyTopRight">cut</item>
+    </style>
+</resources>

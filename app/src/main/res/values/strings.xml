@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="image_button_5">Image Button 5</string>
+    <string name="image_button_4">Image Button 4</string>
+    <string name="image_button_2">Image Button 2</string>
+    <string name="image_button_3">Image Button 3</string>
+    <string name="chip_4">Chip 4</string>
+    <string name="chip">Chip</string>
+    <string name="chip_2">Chip 2</string>
+    <string name="chip_3">Chip 3</string>
+    <string name="floating_action_button">Floating Action Button</string>
+</resources>

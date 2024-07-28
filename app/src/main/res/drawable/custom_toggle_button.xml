@@ -1,0 +1,7 @@
+<!-- res/drawable/custom_toggle_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Включений стан -->
+    <item android:state_checked="true" android:drawable="@drawable/togle_on"/>
+    <!-- Вимкнений стан -->
+    <item android:state_checked="false" android:drawable="@drawable/togle_off"/>
+</selector>
